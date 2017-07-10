@@ -98,7 +98,7 @@ $(".btn-green-peppers").click(function() {
 // else {document.getElementById('finalPrice').innerHTML=(currentPrice);}});
 );
 $('.btn-crust').click(function() {
-  $('.crust').toggle();
+  $('.cheese').toggle();
   $('#gfoption').toggle();
   $(this).toggleClass("active");
   calculatePrice();}
